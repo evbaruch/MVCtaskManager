@@ -50,7 +50,7 @@ The application UI is styled for a more pleasant user experience, with customize
 
 ## Dependencies
 
-- Python 3.x
+- Python 3.11.2
 - PySide6 library
 
 ## Acknowledgments

@@ -2,6 +2,18 @@
 
 This is a simple task manager application built with Python and PySide6. The application allows you to add, delete, and search tasks. It follows the Model-View-Controller (MVC) design pattern.
 
+## Table of Contents
+
+1. [Task Manager Application](#task-manager-application)
+2. [Model-View-Controller (MVC)](#model-view-controller-mvc)
+3. [Code Snippets](#code-snippets)
+   - [Model](#model)
+   - [View](#view)
+   - [Controller](#controller)
+4. [Running the Application](#running-the-application)
+5. [Dependencies](#dependencies)
+6. [License](#license)
+
 ## Model-View-Controller (MVC)
 
 The MVC pattern separates concerns into three components:

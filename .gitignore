@@ -1,0 +1,10 @@
+# Ignore virtual environment
+venv/
+
+# Exclude pipenv files
+Pipfile
+Pipfile.lock
+# Ignore installed packages
+*.pyc
+*.pyo
+__pycache__/

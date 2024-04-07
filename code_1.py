@@ -11,6 +11,7 @@ def generate_string(target_sum):
         result += chr(target_sum)
     return result
 
+
 # Generate a string
 generated_strings = set()
 for _ in range(100):

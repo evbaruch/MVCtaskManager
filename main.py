@@ -32,6 +32,7 @@ def main():
     Initializes the model, view, and controller.
     Shows the GUI and executes the application.
     """
+    
     app = QApplication(sys.argv) # Create an instance of the application
 
     # model -> controller -> view -> controller -> model
@@ -41,7 +42,7 @@ def main():
     # controller knows about both the model and view (the controller is the glue between the model and view)
     
     model = TaskModel() # Create a model
-    view = TaskView(controller=TaskController(model, None)) # Create a view and controller
+    view = TaskView(TaskController(model, None)) # Create a view and controller
     controller = TaskController(model, view) # Create a controller
     
     view.controller = controller  # Set the controller in the view (circular reference)
